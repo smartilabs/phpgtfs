@@ -1,5 +1,5 @@
 {
-    "name": "cookieguru/phpgtfs",
+    "name": "smartilabs/phpgtfs",
     "description": "Data modeling and object writer for General Transit Feed Specification (GTFS)",
     "keywords": ["gtfs", "transit data"],
     "version": "1.0.0",
@@ -9,15 +9,19 @@
         {
             "name": "cookieguru",
             "homepage": "https://github.com/cookieguru/"
+        },
+        {
+            "name": "smartilabs",
+            "homepage": "https://github.com/smartilabs/"
         }
     ],
     "support": {
-        "issues": "https://github.com/cookieguru/phpgtfs/issues"
+        "issues": "https://github.com/smartilabs/phpgtfs/issues"
     },
-    "homepage": "https://github.com/cookieguru/phpgtfs",
+    "homepage": "https://github.com/smartilabs/phpgtfs",
     "autoload": {
         "psr-4": {
-            "cookieguru\\phpgtfs\\": "src/"
+            "smartilabs\\phpgtfs\\": "src/"
         }
     }
 }
