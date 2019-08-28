@@ -11,9 +11,9 @@ Install with [Composer](https://getcomposer.org/)
 Usage
 -----
 ```php
-$agencies = new \cookieguru\phpgtfs\gtfs\Agencies();
+$agencies = new \smartilabs\phpgtfs\gtfs\Agencies();
 
-$agency = new \cookieguru\phpgtfs\model\Agency();
+$agency = new \smartilabs\phpgtfs\model\Agency();
 $agency->agency_name = 'Demo agency';
 $agency->agency_url = 'http://localhost/';
 $agency->agency_timezone = 'America/Los_Angeles';
@@ -23,7 +23,7 @@ $agencies->add($agency);
 ```
 Then simply
 ```php
-\cookieguru\phpgtfs\Writer::write('gtfs/', $agencies);
+\smartilabs\phpgtfs\Writer::write('gtfs/', $agencies);
 ```
 and an `agencies.txt` file will be placed in the `gtfs` folder.  Note that even
 unspecified columns will be written:

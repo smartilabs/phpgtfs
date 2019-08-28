@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class Calendar extends \cookieguru\phpgtfs\Collection {
+class Calendar extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'calendar.txt';
 }

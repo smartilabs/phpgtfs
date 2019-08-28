@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class FeedInfo extends \cookieguru\phpgtfs\Collection {
+class FeedInfo extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'feed_info.txt';
 }

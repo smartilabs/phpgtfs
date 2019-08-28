@@ -1,12 +1,12 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class Routes extends \cookieguru\phpgtfs\Collection {
+class Routes extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'routes.txt';
 
 	/**
 	 * Add a route to the collection
-	 * @param \cookieguru\phpgtfs\model\Route $item A Route to add to the collection
+	 * @param \smartilabs\phpgtfs\model\Route $item A Route to add to the collection
 	 * @throws Exception when trying to add a duplicate route ID AND the properties of both objects are not indential
 	 */
 	public function add($item) {

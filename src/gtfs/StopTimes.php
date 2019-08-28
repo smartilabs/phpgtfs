@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class StopTimes extends \cookieguru\phpgtfs\Collection {
+class StopTimes extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'stop_times.txt';
 }

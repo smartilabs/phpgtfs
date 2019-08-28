@@ -1,5 +1,5 @@
 <?php
-namespace cookieguru\phpgtfs\model;
+namespace smartilabs\phpgtfs\model;
 
 class StopTime {
 	/**

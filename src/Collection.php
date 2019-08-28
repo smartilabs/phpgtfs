@@ -1,5 +1,5 @@
 <?php
-namespace cookieguru\phpgtfs;
+namespace smartilabs\phpgtfs;
 
 class Collection implements \Countable, \IteratorAggregate {
 	protected $items;

@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class FareAttributes extends \cookieguru\phpgtfs\Collection {
+class FareAttributes extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'fare_attributes.txt';
 }

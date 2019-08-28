@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class Frequencies extends \cookieguru\phpgtfs\Collection {
+class Frequencies extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'frequencies.txt';
 }

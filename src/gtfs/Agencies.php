@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class Agencies extends \cookieguru\phpgtfs\Collection {
+class Agencies extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'agency.txt';
 }

@@ -1,6 +1,6 @@
 <?php
-namespace cookieguru\phpgtfs\gtfs;
+namespace smartilabs\phpgtfs\gtfs;
 
-class Trips extends \cookieguru\phpgtfs\Collection {
+class Trips extends \smartilabs\phpgtfs\Collection {
 	const FILENAME = 'trips.txt';
 }
