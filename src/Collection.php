@@ -2,7 +2,7 @@
 namespace smartilabs\phpgtfs;
 
 class Collection implements \Countable, \IteratorAggregate {
-	protected $items;
+	protected $items = [];
 
 	/**
 	 * Add an item to the collection
