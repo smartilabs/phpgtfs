@@ -16,7 +16,9 @@ class FareAttribute {
 
 	/**
 	 * Required
-	 * The currency_type field defines the currency used to pay the fare. Please use the ISO 4217 alphabetical currency codes which can be found at the following URL: http://en.wikipedia.org/wiki/ISO_4217.
+	 * The currency_type field defines the currency used to pay the fare.
+     * Please use the ISO 4217 alphabetical currency codes which can be found at the
+     * following URL: http://en.wikipedia.org/wiki/ISO_4217.
 	 */
 	public $currency_type;
 
@@ -41,9 +43,20 @@ class FareAttribute {
 	/**
 	 * Optional
 	 * The transfer_duration field specifies the length of time in seconds before a transfer expires.
-	 * When used with a transfers value of 0, the transfer_duration field indicates how long a ticket is valid for a fare where no transfers are allowed. Unless you intend to use this field to indicate ticket validity, transfer_duration should be omitted or empty when transfers is set to 0.
+	 * When used with a transfers value of 0, the transfer_duration field indicates how long a ticket is valid
+     * for a fare where no transfers are allowed. Unless you intend to use this field to indicate ticket validity,
+     * transfer_duration should be omitted or empty when transfers is set to 0.
 	 */
 	public $transfer_duration;
+
+    /**
+     * Conditionally required
+     * Identifies the relevant agency for a fare.
+     *
+     * This field is required for datasets with multiple agencies defined in the agency.txt file.
+     * Otherwise, it's optional.
+     */
+	public $agency_id;
 
 	public function __toArray() {
 		return [
@@ -53,6 +66,7 @@ class FareAttribute {
 			'payment_method' => $this->payment_method,
 			'transfers' => $this->transfers,
 			'transfer_duration' => $this->transfer_duration,
+			'agency_id' => $this->agency_id,
 		];
 	}
 }
